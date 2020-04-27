@@ -90,33 +90,6 @@ export default {
       } catch (err) {
         this.borderColor = "danger";
       }
-    },
-
-    getKeyPressed: function(evt = KeyboardEvent) {
-      const digitKeys = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "."];
-      const actionKeys = ["+", "-", "*", "x", "/", "", "Enter", "Backspace"];
-
-      if (digitKeys.includes(evt.key)) {
-        this.digitClicked(evt.key);
-      } else if (actionKeys.includes(evt.key)) {
-        switch (evt.key) {
-          case "x":
-            this.digitClicked(" * ");
-            break;
-
-          case "Backspace":
-            this.del();
-            break;
-
-          case "Enter":
-            this.equalTo();
-            break;
-
-          default:
-            this.digitClicked(" " + evt.key + " ");
-            break;
-        }
-      }
     }
   }
 };
