@@ -18,7 +18,7 @@ export default {
 
 <style>
 body {
-  background-image: url("https://www.transparenttextures.com/patterns/mirrored-squares.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-image: url("/mirrored-squares.png");
+  /*  Courtesy: https://www.transparenttextures.com/  */
 }
 </style>
