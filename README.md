@@ -1,22 +1,7 @@
-# Calculator
+# A Simple PWA Calculator
 
-> A Simple PWA Calculator
+[logo]: https://calc.hmmd.xyz/calc.png "Calculator"
 
-## Build Setup
+You can Install the app via chrome, and use it offline if you like.
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Visit http://calc.hmmd.xyz to see the calculator in action. Thank you!
